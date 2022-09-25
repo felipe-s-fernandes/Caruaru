@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +9,7 @@
 <body>
     <header>
         <figure>
-            <img id="logo" src="/imagens/Brasão_de_Caruaru.png" alt="" width="100">
+            <img id="logo" src="/imagens/Brasão_de_Caruaru.png" alt="Brasão de Caruaru" width="100">
         </figure>
         <h1>Bem vindo a Caruaru!</h1>
         <nav>
@@ -19,43 +19,48 @@
             <a href="./contato.html">Contato</a>
         </nav>
     </header>
-    <br><br>
+    
     <main>
-
-        <img src="/imagens/inspiração.png" alt="">
-
-        <section id="atrativo">
+        <section id="atrativo"> <!--Essa section ficará ao lado esquerdo-->
             <h2>Venha visitar! <br>
                 Me conte quais belezas deseja conhecer <br>
                 ou suas dúvidas sobre a nossa linda cidade! </h2>
                 <p>Utilize o formulário ao lado para mandar sua menssagem!</p>
         </section>
 
-        <section id="form">
-                <form action="">
-                <fieldset id="name-fieldset" width="50" >
-                    <legend>Escreva suas dados pessoais aqui:</legend>
+        <section id="form"> <!--Essa section ficará ao lado direito-->
+            <form action="X" method="post" autocomplete="on">
+                <fieldset>
+                    <legend>Escreva seus dados aqui:</legend>
                     <br>
-                    <label for="name" name="coloque seu nome">Nome:</label>
-                    <input type="text" id="name">
+                    <label for="name" name="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
                     <br><br>
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email">
+                    <label for="email" name="email" >E-mail:</label>
+                    <input type="email" id="email" name="email" required>
                     <br><br>
-                    <label for="mensage">Escre</label>
+                    <label for="subject" name="subject">Assunto:</label>
+                    <input type="text" id="subject" name="subject" required>
+                    <br><br>
+                    <label for="mensage">Escreva sua mensagem:</label>
+                    <br>
+                    <textarea id="mensage" name="mensage" cols="40" rows="8"></textarea required>
                     <br><br>
                     <label for="trip">Pretende realizar uma viagem nos próximos meses?</label>
                     <br>
                     <label for="yes">Sim</label>
-                    <input type="checkbox" id="yes">
-                    <label for="yes">Não</label>
-                    <input type="checkbox" id="yes">
+                    <input type="radio" id="yes" name="opcao" value="Sim">
+                    <label for="no">Não</label>
+                    <input type="radio" id="no" name="opcao" value="Nao">
                     <br><br>
                     <input type="submit" id="submit" value="Enviar">
                 </fieldset>
-                
             </form>
         </section>
     </main>
+    
+    <footer>
+
+    </footer>
 </body>
 </html>
