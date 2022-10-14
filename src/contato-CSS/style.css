@@ -16,23 +16,6 @@
     background-size: cover;
  }
 
-/* ------LOGO------ */
-
-.container-circle-logo {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    background-color: white;
-    position: relative;
-}
-
-#logo {
-    position: absolute;
-    top: 10%;
-    left: 11%;
-    width: 150px;
-}
-
 /* ------MAIN------ */
 main {
     width: 100%;
@@ -43,10 +26,21 @@ main {
 }
 
 .flex-container {
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: row;
     padding: 3%;
+    position: relative;
+    right: 100%;
+    opacity: 0;
+    animation: slide-right 0.9s ease-out forwards, opacity 2s;
+}
+
+@keyframes slide-right {
+    100% {
+        right: 0;
+        opacity: 1;
+    }
 }
 
 /* ------LEFT SECTION------ */
@@ -149,17 +143,21 @@ input[type="submit"] {
     border: none;
 }
 
+/* ANIMATION */
 
+.flex-container {
+
+}
 
 @media screen and (max-width: 768px) {
     
     .flex-container{
         flex-direction: column;
         width: 100vw;
-        padding-top: 5%;
-        padding-bottom: 5%;
+        padding-top: 8%;
+        padding-bottom: 8%;
         align-items: center;
-        gap: 50px;
+        gap: 30px;
     }
     .container-text {
         width: 80%;

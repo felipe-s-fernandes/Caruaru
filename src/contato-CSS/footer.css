@@ -45,7 +45,6 @@ footer table tr td {
     font-size: 0.9em;
 }
 
-
 footer table tr a {
     color: rgb(109, 193, 222);
 }
@@ -100,21 +99,16 @@ footer table tr a:hover {
 @media screen and (max-width: 768px) {
 
     footer{
-        height: 200px;
+        height: 100%;
+    }
+
+    footer table{
+        width: 93%;
     }
 
     footer table tr{
         width: 200px;
         font-size: 18px;
         font-weight: 400px;
-        
-    }
-
-    footer table tr th{
-        text-align: start;
-    }
-
-    footer table tr td{
-        text-align: start;
     }
 }

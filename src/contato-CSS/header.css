@@ -25,15 +25,32 @@ nav {
     color: #263555;
 }
 
+/* ------LOGO------ */
+
+.container-circle-logo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+}
+
+#logo {
+    position: absolute;
+    top: 10%;
+    left: 11%;
+    width: 150px;
+}
+
 @media screen and (max-width: 768px) {
     nav {
-        height: 85%;
+        height: 80%;
         flex-direction: column;
         align-content: space-between;
     }
 
     header {
-        height: 50vh;
+        height: 55vh;
     }
 
     .container-circle-logo{
