@@ -1,0 +1,226 @@
+:root{
+    --container-width: 1300px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+body {
+    height: 100%;
+    background-image: url(https://imagens.ne10.uol.com.br/img/imagens/2020/05/18/98422ee6e7_aniversario-de-caruaru-janaina-pepeu-ne10.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(3px);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: #263555;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-content .slides {
+    width: 80%;
+    height: 36vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    overflow: hidden;
+    /* Animação do background */
+    animation: slide 20s infinite;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@keyframes slide {
+    0% {
+        background-image: url(../imagens/felipe-imagens/feira-de-caruaru.jpg);
+    }
+    10% {
+        background-image: url(../imagens/felipe-imagens/feira-de-caruaru.jpg);
+    }
+    15% {
+        background-image: url(../imagens/felipe-imagens/sao-joao-caruaru.jpg);
+    }
+    35% {
+        background-image: url(../imagens/felipe-imagens/sao-joao-caruaru.jpg);
+    }
+    40% {
+        background-image: url(../imagens/felipe-imagens/morro-bom-jesus.webp);
+    }
+    60% {
+        background-image: url(../imagens/felipe-imagens/morro-bom-jesus.webp);
+    }
+    65% {
+        background-image: url(../imagens/felipe-imagens/feira-da-sulanca.jpg);
+    }
+    85% {
+        background-image: url(../imagens/felipe-imagens/feira-da-sulanca.jpg);
+    }
+    90% {
+        background-image: url(../imagens/felipe-imagens/feira-de-caruaru.jpg);
+    }
+    100% {
+        background-image: url(../imagens/felipe-imagens/feira-de-caruaru.jpg);
+    }
+}
+
+
+/* MUDAR COM MEDIA QUERIES */
+.container {
+    background-color: #fff;
+    max-width: var(--container-width);
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding-left: 25px; /* MUDAR COM MEDIA QUERY */
+    padding-right: 25px; /* MUDAR COM MEDIA QUERY */
+    overflow: hidden;
+}
+
+.title {
+    font-size: 38px;
+    line-height: 44px;
+    color: #263555;
+    margin-top: 62px;
+    margin-bottom: 54px;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.hover-container {
+    display: flex;
+    width: 32%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.hover-container .text-box {
+    background-color: #193149;
+    width: 50%;
+    opacity: 1;
+    padding: 10px;
+    margin-left: -50%;
+    transition: all 0.7s; 
+}
+.text-box h3 {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 18px;
+    font-size: 28px;
+    margin-bottom: 18px;
+}
+.text-box p {
+    color: #ffffff;
+    text-align: justify;
+}
+
+#tancredo {
+    background-image: url(../imagens/800px-Caruaru-Espaço-Cultural-Tancredo-Neves.jpg);
+    background-size: cover;
+}
+
+#gonzaga {
+    background-image: url(../imagens/museu-do-barro-e-museu.jpg);
+    background-size: cover;
+}
+
+#autodromo {
+    background-image: url(../imagens/4-autodromo-caruaru.jpg);
+    background-size: cover;
+}
+
+.hover-container:hover .text-box {
+    margin-left: 0px;
+    font-size: 100px;
+}
+
+
+/* MEDIA QUERIES */
+@media (max-width: 1150px) {
+    main {
+        display: block;
+    }
+    .card {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+    .hover-container {
+        margin-top: 10px;
+        width: 350px;
+    }
+}
+
+/* ------HEADER------ (copiado de Carol) */
+
+header {
+    height: 230px;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-a {
+    font-size: 28px;
+    line-height: 28px;
+    color: white;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.header-a:hover {
+    color: #263555;
+}
+
+/* ------LOGO------ */
+
+.container-circle-logo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+}
+
+#logo {
+    position: absolute;
+    top: 10%;
+    left: 11%;
+    width: 150px;
+}

@@ -1,99 +1,76 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caruaru</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/felipe.css">
+    <title>Document</title>
 </head>
-<body background="./imagens/background.jpg">
+<body>
+
+    <div class="bg-image"></div>
+
     <header>
-        <figure>
-            <a href="https://caruaru.pe.gov.br/" target="_blank"><img id="logo" src="/imagens/Brasão_de_Caruaru.png" alt="Brasão de Caruaru" width="100"></a>
-        </figure>
-        <h1>Bem vindo a Caruaru!</h1>
         <nav>
-            <a href="./index.html">Principal</a> |
-            <a href="./historia.html">História</a> |
-            <a href="./midia.html">Galeria</a> |
-            <a href="./contato.html">Contato</a>
+            <a class="header-a" href="./index.html">Principal</a>
+            <a class="header-a" href="./historia.html">História</a>
+            <div class="container-circle-logo">
+                <a href="https://caruaru.pe.gov.br/" target="_blank">
+                    <img id="logo" src="/imagens/Brasão_de_Caruaru.png" alt="Brasão de Caruaru">
+                </a>
+            </div>
+            <a class="header-a" href="./midia.html">Galeria</a>
+            <a class="header-a" href="./contato.html">Contato</a>
         </nav>
     </header>
 
     <main>
-        <h2>"Princesa do Agreste"</h2>
-        <section>
-            <p>Caruaru é um município brasileiro do estado de Pernambuco, situado na região nordeste do país. Sua população, segundo as estimativas do IBGE em 2021 é de <b>369.343 habitantes</b>, sendo a <mark>terceira mais populosa cidade do interior nordestino</mark>, atrás apenas de Feira de Santana e Campina Grande. O município localiza-se a oeste da capital do estado, Recife, distanto desta cerca de 130 km. Ocupa uma área de <b>920.611 km²</b>.</p>
-
-            <p>Localizada no Vale do Ipojuca, ao longo dos anos Caruaru recebeu várias denominações, sendo conhecida também como a "Princesa do Agreste", "Capital do Agreste" e a "Capital do Forró".</p>
+        <article class="main-content container">
             
-            <div>
-                <h3>Parque 18 de maio, onde é realizada a Feira da Sulanca:</h3>
-                <img src="./imagens/feira da sulanca.jpg" alt="Vista aérea da Feira da Sulanca" width="600px">
+            <div class="text-content">
+                <h1 class="title">CARUARU - A PRINCESA DO AGRESTE</h1>
+                <p class="paragraph">Caruaru é um município brasileiro do estado de Pernambuco, situado na região nordeste do país. Sua população, segundo as estimativas do IBGE em 2021 é de 369.343 habitantes, sendo a terceira mais populosa cidade do interior nordestino, atrás apenas de Feira de Santana e Campina Grande. O município localiza-se a oeste da capital do estado, Recife, distanto desta cerca de 130 km. Ocupa uma área de 920.611 km².</p>
+                <p class="paragraph">Localizada no Vale do Ipojuca, ao longo dos anos Caruaru recebeu várias denominações, sendo conhecida também como a "Princesa do Agreste", "Capital do Agreste" e a "Capital do Forró".</p>
             </div>
 
-            <p>A cidade abriga um dos mais importantes entrepostos comerciais do Nordeste, sendo um pilar no chamado "pólo têxtil" brasileiro (vide imagem acima), e tem no Alto do Moura o Maior Centro de Artes Figurativas da América Latina, título este concedido pela UNESCO, como reconhecimento de uma história iniciada na década de 40 do século passado, através do seu mais ilustre filho, Vitalino Pereira dos Santos, o Mestre Vitalino, ceramista que fez história através da criação de bonecos de barro, arte perpetuada entre seus familiares e vários discípulos, representados nas gerações de artesãos, ainda hoje residentes na famosa vila.</p>
+            <figure class="slides"></figure>
 
-        </section>
+            <div class="text-content">
+                
+                <p class="paragraph">A cidade abriga um dos mais importantes entrepostos comerciais do Nordeste, sendo um pilar no chamado "pólo têxtil" brasileiro (vide imagem acima), e tem no Alto do Moura o Maior Centro de Artes Figurativas da América Latina, título este concedido pela UNESCO, como reconhecimento de uma história iniciada na década de 40 do século passado, através do seu mais ilustre filho, Vitalino Pereira dos Santos, o Mestre Vitalino, ceramista que fez história através da criação de bonecos de barro, arte perpetuada entre seus familiares e vários discípulos, representados nas gerações de artesãos, ainda hoje residentes na famosa vila.</p>
+
+                <p class="paragraph">A cidade abriga um dos mais importantes entrepostos comerciais do Nordeste, sendo um pilar no chamado "pólo têxtil" brasileiro (vide imagem acima), e tem no Alto do Moura o Maior Centro de Artes Figurativas da América Latina, título este concedido pela UNESCO, como reconhecimento de uma história iniciada na década de 40 do século passado, através do seu mais ilustre filho, Vitalino Pereira dos Santos, o Mestre Vitalino, ceramista que fez história através da criação de bonecos de barro, arte perpetuada entre seus familiares e vários discípulos, representados nas gerações de artesãos, ainda hoje residentes na famosa vila.</p>
+            </div>
+        </article>
         
-        <section>
-            <h2>Pontos Turísticos:</h2>
-            
-            <h3>Espaço Cultural Tancredo Neves</h3>
-            <div>
-                <img src="./imagens/800px-Caruaru-Espaço-Cultural-Tancredo-Neves.jpg" alt="Espaço cultural Tancredo Neves" width="600px">
-            </div>
-            <p>Originalmente construído na antiga Fábrica Caruá, passou por um processo de restauração, quando recebeu a atual denominação. Na área interna abriga pavilhão de exposições e feiras, as sedes da Secretaria de Turismo e da Fundação de Cultura, além do Museu da Caruá e unidades culturais.</p>
-            
-            <h3>Museu Luiz Gonzaga</h3>
-            <div>
-                <img src="./imagens/museu-do-barro-e-museu.jpg" alt="Museu do forró Luiz Gonzaga" width="600px">
-            </div>
-            <p>Reúne em 3 salas uma coleção de fotografias, documentos, troféus, roupas, discos e instrumentos musicais que pertenceram a Luiz Gonzaga.</p>
+        <article class="tourism container">
+            <h2 class="title">PONTOS TURÍSTICOS</h2>
+            <section class="card">
+                <div class="hover-container" id="tancredo">
+                    <div class="text-box">
+                        <h3>Espaço Cultural Tancredo Neves</h3>
+                        <p>Abriga pavilhão de exposições e feiras, as sedes da Secretaria de Turismo e da Fundação de Cultura, além do Museu da Caruá e unidades culturais.</p>
+                    </div>
+                </div>
+                <div class="hover-container" id="gonzaga">
+                    <div class="text-box">
+                        <h3>Museu do Forró Luiz Gonzaga</h3>
+                        <p>Reúne em 3 salas uma coleção de fotografias, documentos, troféus, roupas, discos e instrumentos musicais que pertenceram a Luiz Gonzaga.</p>
+                    </div>
+                </div>
+                <div class="hover-container" id="autodromo">
+                    <div class="text-box">
+                        <h3>Autódromo Ayrton Senna</h3>
+                        <p>Possui infraestrutura necessária para sediar corridas automobilísticas, a exemplo da Fórmula Truck e provas do calendário do motociclismo nacional.</p>
+                    </div>
+                </div>
+            </section>
+        </article>
 
-            <h3>Autódromo Ayrton Senna</h3>
-            <div>
-                <img src="./imagens/4-autodromo-caruaru.jpg" alt="Autódromo Ayrton Senna" width="600px">
-            </div>
-            <p>Possui infraestrutura necessária para sediar corridas automobilísticas, a exemplo da Fórmula Truck e provas do calendário do motociclismo nacional.</p>
-        </section>
-
-        <aside>
-            <h2>Localização:</h2>
-            <p>Interaja com o mapa para descobrir cada canto de Caruaru-PE:</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252745.6661425125!2d-36.15620626987281!3d-8.187536509182875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a98bbebc94490f%3A0xdd09062168eb8b2b!2sCaruaru%20-%20PE!5e0!3m2!1spt-BR!2sbr!4v1663963797966!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </aside>
-        <hr>
-    </main>
-
-    <footer>
-        <table>
-            <tr>
-                <th>Aluno</th>
-                <th>Página criada</th>
-                <th>GitHub</th>
-            </tr>
-            <tr>
-                <td>Carolina Liberato</td>
-                <td>Contato.html</td>
-                <td><a href="https://github.com/carolinaliberatom">/carolinaliberatom</a></td>
-            </tr>
-            <tr>
-                <td>Davi Severino</td>
-                <td>Historia.html</td>
-                <td><a href="https://github.com/Severo-96">/Severo-96</a></td>
-            </tr>
-            <tr>
-                <td>Felipe Fernandes</td>
-                <td>Index.html</td>
-                <td><a href="https://github.com/felipe-s-fernandes">/felipe-s-fernandes</a></td>
-            </tr>
-            <tr>
-                <td>Pedro Mendes</td>
-                <td>Midia.html</td>
-                <td><a href="https://github.com/PedroMCarvalho">/PedroMCarvalho</a></td>
-            </tr>
-        </table>
-    </footer>
+    <footer></footer>
 </body>
 </html>
