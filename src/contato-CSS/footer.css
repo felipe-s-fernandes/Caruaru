@@ -1,0 +1,114 @@
+footer {
+    height: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    font-size: 24px;    
+}
+
+footer div{
+    background-color: #30455B;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+footer table{
+    width: 80%;
+    padding: 20px;
+    border: rgba(238, 238, 238, 0.395) solid 1px;
+    border-radius: 20px;
+}
+
+footer table tr{
+    width: 300px;
+    gap: 0 200px;
+}
+
+footer table tr th {
+    width: 200px;
+    font-weight: 900px;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+    letter-spacing: 0.05em;
+}
+
+footer table tr td {
+    width: 200px;
+    text-align: center;
+    line-height: 140%;
+    font-size: 0.9em;
+}
+
+footer table tr a {
+    color: rgb(109, 193, 222);
+}
+
+
+footer table tr a:hover {
+    text-decoration: underline;
+}
+
+/* -------- SOCIAL MEDIA ---------- */
+.social-media {
+    height: 130px;
+}
+.social-media p {
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+}
+.social-media a:visited {
+    color: #fff;
+}
+.social-media a:hover {
+    color: #4888c7;
+    font-weight: 700;
+}
+.socials {
+    text-align: center;
+    margin-bottom: 21px;
+    margin-top: 21px;
+}
+.socials a {
+    margin: 0 5px;
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    background: url(../../imagens/socials.png) 0 0 no-repeat;
+    transition: all 0.3s;
+}
+.socials a+a {
+    background-position: -60px 0;
+}
+.socials a+a+a {
+    background-position: -122px 0;
+}
+.socials a+a+a+a {
+    background-position: right 0;
+}
+.socials a:hover {
+    filter: brightness(80%);
+}
+
+@media screen and (max-width: 768px) {
+
+    footer{
+        height: 100%;
+    }
+
+    footer table{
+        width: 93%;
+    }
+
+    footer table tr{
+        width: 200px;
+        font-size: 18px;
+        font-weight: 400px;
+    }
+}
