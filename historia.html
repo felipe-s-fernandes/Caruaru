@@ -1,122 +1,140 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
     <title>Caruaru</title>
+    <link rel="stylesheet" href="./src/davi-historia.css">
 </head>
-<body background="./imagens/background.jpg">
+<body>
+
     <header>
-        <figure>
-            <a href="https://caruaru.pe.gov.br/" target="_blank"><img id="logo" src="/imagens/Brasão_de_Caruaru.png" alt="Brasão de Caruaru" width="100"></a>
-        </figure>
-        <h1>Bem vindo a Caruaru!</h1>
         <nav>
-            <a href="./index.html">Principal</a> |
-            <a href="./historia.html">História</a> |
-            <a href="./midia.html">Galeria</a> |
-            <a href="./contato.html">Contato</a>
+            <a class="header-a" href="./index.html">Principal</a>
+            <a class="header-a" href="./historia.html">História</a>
+            <div class="container-circle-logo">
+                <a href="https://caruaru.pe.gov.br/" target="_blank">
+                    <img id="logo" src="/imagens/Brasão_de_Caruaru.png" alt="Brasão de Caruaru">
+                </a>
+            </div>
+            <a class="header-a" href="./midia.html">Galeria</a>
+            <a class="header-a" href="./contato.html">Contato</a>
         </nav>
     </header>
-    <section>
-        <h2>Índice</h2>
-        <nav>
-            <ol type="I">
-                <li><a href="#1781">1781</a></li>
-                <li><a href="#1834">1834</a></li>
-                <li><a href="#1844">1844</a></li>
-                <li><a href="#1846">1846</a></li>
-                <li><a href="#1848">1848</a></li>
-                <li><a href="#1849">1849</a></li>
-                <li><a href="#1857">1857</a></li>
-                <li><a href="#1867">1867</a></li>
-                <li><a href="#1872">1872</a></li>
-                <li><a href="#1893">1893</a></li>
-            </ol>
-        </nav>
-    </section>
+
     <main>
-        <h2>Um Pouco da Nossa História!</h2>
-        <div id="1781">
-            <h3>O inicio – 1781</h3>
-            <p>Em 1781, com licença do Bispado de Olinda, foi construiu a capela de Nossa Senhora da Conceição, que contribuiu para o surgimento de uma feirinha semanal e passou a ser ponto de convergência de novos moradores, iniciando-se assim o povoamento da região.</p>
-            <hr>
-        </div>
-        <div  id="1834">
-            <h3>1834</h3>
-            <p>A cidade se figurava como 7º distrito de paz de Bonito, conforme ofício datado de 8 de novembro desse ano, enviado pela Câmara de Bonito ao Conselho do Governo de Pernambuco. </p>
-            <hr>
-        </div>
-        <div  id="1844">
-            <h3>1844</h3>
-            <p>A Lei Provincial nº 133, de 6 de maio de 1844, criou o distrito de São Caetano da Raposa, anexado ao município de Caruaru (alguns documentos mencionam essa lei como sendo do dia 2 de maio). </p>
-            <hr>
-        </div>
-        <div id="1846">
-            <h3>1846</h3>
-            <p>O missionário <i>frei Euzébio de Sales</i>, capuchinho da Penha, iniciou a construção da Igreja Matriz, hoje catedral. </p>
-            <hr>
-        </div>
-        <div id="1848">
-            <h3>1848</h3>
-            <p>Em 16 de agosto de 1848, a Lei Provincial nº 212 elevou Caruaru à categoria de vila, com território desmembrado de Bonito. </p>
-            <hr>
-        </div>
-        <div id="1849">
-            <h3>1849</h3>
-            <p>A Câmara foi instalada no dia 16 de setembro de 1849, segundo ofício enviado ao presidente da província; quem a instalou foi o presidente da Câmara de Bonito, <i>Xavier de Lima</i>. O primeiro vigário da freguesia foi o <i>padre Antonio Jorge Guerra</i>, que a instalou no dia 28 do mesmo mês e ano.</p>
-            <hr>
-        </div>
-        <div id="1857">
-            <h3>1857</h3>
-            <p>Em 18 de maio de 1857, a Lei Provincial nº 416 elevou a vila de Caruaru à categoria de cidade e sede do município</p>
-            <hr>
-        </div>
-        <div id="1867">
-            <h3>1867</h3>
-            <p>em 20 de maio de 1867, a Lei Provincial nº 720 criou a comarca de Caruaru, a qual foi classificada de 1ª entrância pelo Decreto nº 3.978, de 12 de outubro do mesmo ano; o primeiro juiz de Direito foi o <i>dr. Antonio Buarque de Lima</i>.</p>
-            <hr>
-        </div> 
-        <div id="1872">
-            <h3>1872</h3>
-            <p>Em 13 de novembro de 1872, o Decreto nº 5.139 classificou a comarca de Caruaru como de 2ª entrância. </p> 
-            <hr>
-        </div>
-        <div id="1893">
-            <h3>1893</h3>
-            <p>Tornou-se município em 1 de março de 1893, com base no art. 2º das disposições gerais da Lei Estadual nº 52 (Lei Orgânica dos Municípios), de 3 de agosto de 1892. O primeiro prefeito eleito foi o <i>major João Salvador dos Santos</i>. Em relação anexa ao ofício do prefeito para o Secretário do Governo, com data de 26 de maio de 1893, declara-se que o município fora dividido em três distritos administrativos: Caruaru (sede municipal), Carapotós e São Caetano da Raposa. </p>
-            <hr>
-        </div>
+        <div class="container">
+            <aside class="indice flexcenter">
+                <div class="title">
+                    <h2>Índice</h2>
+                </div>
+                <ol type="I">
+                    <li><a href="#1781">1781</a></li>
+                    <li><a href="#1834">1834</a></li>
+                    <li><a href="#1844">1844</a></li>
+                    <li><a href="#1846">1846</a></li>
+                    <li><a href="#1848">1848</a></li>
+                    <li><a href="#1849">1849</a></li>
+                    <li><a href="#1857">1857</a></li>
+                    <li><a href="#1867">1867</a></li>
+                    <li><a href="#1872">1872</a></li>
+                    <li><a href="#1893">1893</a></li>
+                </ol>
+            </aside>
+            
+            <sector class="content">         
+                <div class="title">
+                    <h2>Um Pouco da Nossa História!</h2>
+                </div>
+                <div id="1781">
+                    <h3>O inicio – 1781</h3>
+                    <p>Em 1781, com licença do Bispado de Olinda, foi construiu a capela de Nossa Senhora da Conceição, que contribuiu para o surgimento de uma feirinha semanal e passou a ser ponto de convergência de novos moradores, iniciando-se assim o povoamento da região.</p>
+                    <hr>
+                </div>
+                <div  id="1834">
+                    <h3>1834</h3>
+                    <p>A cidade se figurava como 7º distrito de paz de Bonito, conforme ofício datado de 8 de novembro desse ano, enviado pela Câmara de Bonito ao Conselho do Governo de Pernambuco. </p>
+                    <hr>
+                </div>
+                <div  id="1844">
+                    <h3>1844</h3>
+                    <p>A Lei Provincial nº 133, de 6 de maio de 1844, criou o distrito de São Caetano da Raposa, anexado ao município de Caruaru (alguns documentos mencionam essa lei como sendo do dia 2 de maio). </p>
+                    <hr>
+                </div>
+                <div id="1846">
+                    <h3>1846</h3>
+                    <p>O missionário <i>frei Euzébio de Sales</i>, capuchinho da Penha, iniciou a construção da Igreja Matriz, hoje catedral. </p>
+                    <hr>
+                </div>
+                <div id="1848">
+                    <h3>1848</h3>
+                    <p>Em 16 de agosto de 1848, a Lei Provincial nº 212 elevou Caruaru à categoria de vila, com território desmembrado de Bonito. </p>
+                    <hr>
+                </div>
+                <div id="1849">
+                    <h3>1849</h3>
+                    <p>A Câmara foi instalada no dia 16 de setembro de 1849, segundo ofício enviado ao presidente da província; quem a instalou foi o presidente da Câmara de Bonito, <i>Xavier de Lima</i>. O primeiro vigário da freguesia foi o <i>padre Antonio Jorge Guerra</i>, que a instalou no dia 28 do mesmo mês e ano.</p>
+                    <hr>
+                </div>
+                <div id="1857">
+                    <h3>1857</h3>
+                    <p>Em 18 de maio de 1857, a Lei Provincial nº 416 elevou a vila de Caruaru à categoria de cidade e sede do município</p>
+                    <hr>
+                </div>
+                <div id="1867">
+                    <h3>1867</h3>
+                    <p>em 20 de maio de 1867, a Lei Provincial nº 720 criou a comarca de Caruaru, a qual foi classificada de 1ª entrância pelo Decreto nº 3.978, de 12 de outubro do mesmo ano; o primeiro juiz de Direito foi o <i>dr. Antonio Buarque de Lima</i>.</p>
+                    <hr>
+                </div> 
+                <div id="1872">
+                    <h3>1872</h3>
+                    <p>Em 13 de novembro de 1872, o Decreto nº 5.139 classificou a comarca de Caruaru como de 2ª entrância. </p> 
+                    <hr>
+                </div>
+                <div id="1893">
+                    <h3>1893</h3>
+                    <p>Tornou-se município em 1 de março de 1893, com base no art. 2º das disposições gerais da Lei Estadual nº 52 (Lei Orgânica dos Municípios), de 3 de agosto de 1892. O primeiro prefeito eleito foi o <i>major João Salvador dos Santos</i>. Em relação anexa ao ofício do prefeito para o Secretário do Governo, com data de 26 de maio de 1893, declara-se que o município fora dividido em três distritos administrativos: Caruaru (sede municipal), Carapotós e São Caetano da Raposa. </p>
+                    <hr>
+                </div>
+            </sector>
+        </div>    
     </main>
+
     <footer>
-        <table>
-            <tr>
-                <th>Aluno</th>
-                <th>Página criada</th>
-                <th>GitHub</th>
-            </tr>
-            <tr>
-                <td>Carolina Liberato</td>
-                <td>Contato.html</td>
-                <td><a href="https://github.com/carolinaliberatom">/carolinaliberatom</a></td>
-            </tr>
-            <tr>
-                <td>Davi Severino</td>
-                <td>Historia.html</td>
-                <td><a href="https://github.com/Severo-96">/Severo-96</a></td>
-            </tr>
-            <tr>
-                <td>Felipe Fernandes</td>
-                <td>Index.html</td>
-                <td><a href="https://github.com/felipe-s-fernandes">/felipe-s-fernandes</a></td>
-            </tr>
-            <tr>
-                <td>Pedro Mendes</td>
-                <td>Midia.html</td>
-                <td><a href="https://github.com/PedroMCarvalho">/PedroMCarvalho</a></td>
-            </tr>
-        </table>
+        <div>
+            <table>
+                <tr>
+                    <th>Aluno</th>
+                    <th>Página criada</th>
+                    <th>GitHub</th>
+                </tr>
+                <tr>
+                    <td>Carolina Liberato</td>
+                    <td>Contato.html</td>
+                    <td><a href="https://github.com/carolinaliberatom">/carolinaliberatom</a></td>
+                </tr>
+                <tr>
+                    <td>Davi Severino</td>
+                    <td>Historia.html</td>
+                    <td><a href="https://github.com/Severo-96">/Severo-96</a></td>
+                </tr>
+                <tr>
+                    <td>Felipe Fernandes</td>
+                    <td>Index.html</td>
+                    <td><a href="https://github.com/felipe-s-fernandes">/felipe-s-fernandes</a></td>
+                </tr>
+                <tr>
+                    <td>Pedro Mendes</td>
+                    <td>Midia.html</td>
+                    <td><a href="https://github.com/PedroMCarvalho">/PedroMCarvalho</a></td>
+                </tr>
+            </table>
+        </div>
     </footer>
+
 </body>
 </html>
