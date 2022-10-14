@@ -170,6 +170,16 @@ main {
     margin-left: 0px;
 }
 
+/* Seção de localização */
+.location {
+    display: flex;
+    padding-bottom: 30px;
+}
+.location article {
+    width: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 /* ------HEADER------ (copiado de Carol) */
 header {
@@ -389,5 +399,21 @@ footer table tr a:hover {
     .hover-container {
         margin-top: 10px;
         width: 350px;
+    }
+    .location {
+        flex-direction: column;
+        align-items: center;
+    }
+    .location article {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .location aside {
+        padding-top: 20px;
+        width: 100%;
+    }
+    .location iframe {
+        width: 100%;
     }
 }
