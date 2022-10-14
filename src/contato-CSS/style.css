@@ -64,7 +64,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255, 235, 235, 0.474);
+    background-color: rgba(255, 255, 255, 0.474);
 }
 
 .flex-container {
@@ -283,4 +283,46 @@ footer table tr a:hover {
     footer table tr td{
         text-align: start;
     }
+}
+
+/* -------- SOCIAL MEDIA ---------- */
+.social-media {
+    height: 230px;
+}
+.social-media p {
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+}
+.social-media a:visited {
+    color: #fff;
+}
+.social-media a:hover {
+    color: #4888c7;
+    font-weight: 700;
+}
+.socials {
+    text-align: center;
+    margin-bottom: 21px;
+    margin-top: 21px;
+}
+.socials a {
+    margin: 0 5px;
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    background: url(../../imagens/socials.png) 0 0 no-repeat;
+    transition: all 0.3s;
+}
+.socials a+a {
+    background-position: -60px 0;
+}
+.socials a+a+a {
+    background-position: -122px 0;
+}
+.socials a+a+a+a {
+    background-position: right 0;
+}
+.socials a:hover {
+    filter: brightness(80%);
 }
