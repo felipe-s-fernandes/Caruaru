@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    background: url(https://imagens.ne10.uol.com.br/img/imagens/2020/05/18/98422ee6e7_aniversario-de-caruaru-janaina-pepeu-ne10.jpg) center 0 no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(3px);
+}
+
+main {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h2 {
+    font-size: 38px;
+    line-height: 44px;
+    color: #263555;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+h3 {
+    font-size: 28px;
+    line-height: 19px;
+    color: #263555;
+    text-indent: 2em;
+    padding: 15px 0 10px 0;
+}
+
+p {
+    text-indent: 1.5em;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+i {
+    text-indent: 1.5em;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+li > a {
+    text-decoration: none;
+    text-indent: 1.5em;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+li > a:hover {
+    color: black;
+}
+
+.flexcenter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.indice {
+    height: 30%;
+    width: 15%;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.content {
+    height: auto;
+    width: 80%;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/* ------HEADER------ */
+
+header {
+    height: 230px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-a {
+    font-size: 28px;
+    line-height: 28px;
+    color: white;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.header-a:hover {
+    color: #263555;
+}
+
+/* ------LOGO------ */
+
+.container-circle-logo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+}
+
+#logo {
+    position: absolute;
+    top: 10%;
+    left: 11%;
+    width: 150px;
+}
+
+/* ------FOOTER------ */
+
+footer {
+    height: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    font-size: 24px;    
+}
+
+footer div{
+    background-color: #30455B;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer table{
+    width: 80%;
+    padding: 20px 0;
+}
+
+footer table tr{
+    width: 300px;
+    gap: 0 200px;
+}
+
+footer table tr th {
+    width: 200px;
+    font-weight: 900px;
+}
+
+footer table tr td {
+    width: 200px;
+    text-align: center;
+}
+
+
+footer table tr a {
+    color: rgb(109, 193, 222);
+}
+
+
+footer table tr a:hover {
+    text-decoration: underline;
+}
