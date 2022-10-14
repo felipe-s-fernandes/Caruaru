@@ -276,6 +276,22 @@ footer table tr a:hover {
     footer table tr td{
         text-align: start;
     }
+
+    li {
+        float: left;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .indice {
+        height: 35%;
+        width: 100%;
+        flex-wrap: wrap;
+        border-left: 40px;
+        border-right: 40px;
+    }
 }
 
 /* -------- SOCIAL MEDIA ---------- */
