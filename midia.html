@@ -5,98 +5,108 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/midia-CSS/pedro.css">
     <title>Caruaru</title>
 </head>
 
-<body background="./imagens/background.jpg">
+<body>
+    <!-- Cabeçalho -->
+
     <header>
-        <figure>
-            <a href="https://caruaru.pe.gov.br/" target="_blank"><img id="logo" src="/imagens/Brasão_de_Caruaru.png" alt="Brasão de Caruaru" width="100"></a>
-        </figure>
-        <h1 >Bem vindo a Caruaru!</h1>
         <nav>
-            <a href="./index.html">Principal</a> |
-            <a href="./historia.html">História</a> |
-            <a href="./midia.html">Galeria</a> |
-            <a href="./contato.html">Contato</a>
+            <a class="header-a" href="./index.html">Principal</a>
+            <a class="header-a" href="./historia.html">História</a>
+            <div class="container-circle-logo">
+                <a href="https://caruaru.pe.gov.br/" target="_blank">
+                    <img id="logo" src="../Caruaru/imagens/Brasão.svg" alt="Brasão de Caruaru">
+                </a>
+            </div>
+            <a class="header-a" href="./midia.html">Galeria</a>
+            <a class="header-a" href="./contato.html">Contato</a>
         </nav>
     </header>
-    <center>
-        <main>
 
-            <figure>
-                <img src="./imagens/incone.jpg" alt="Placa Monumento">
-                <figcaption>
-                    <h2>Caruaru</h2>
-                    <br /><br /><br /><br /><br /><br />
-                </figcaption>
-            </figure>
+    <!-- Principal -->
 
-            <video width="600" height="450" controls="controls" muted played loop autoplay poster="jamie.jpg">
-                <source src="./imagens/conhecaCaruaru.mp4" type="video/mp4">
-            </video>
+    <main>
+        <video class="photos" width="600" height="450" controls="controls" muted played loop autoplay
+            poster="jamie.jpg">
+            <source src="./imagens/conhecaCaruaru.mp4" type="video/mp4">
+        </video>
 
-            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-            <h1>Patrimônios e Riquezas Culturais de Caruaru</h1>
-            <br /><br />
+        <h1>Patrimônios e Riquezas Culturais de Caruaru</h1>
 
-            <figure>
-                <figcaption>
-                    <h2>Cidade de Caruaru</h2>
-                    <h3>(Céu do Cangaço Caruaru)</h3>
-                </figcaption>
-                <img src="./imagens/cidadeCaruaru.jpg" alt="Caruaru">
-                <br /><br /><br /><br /><br /><br />
-            </figure>
+        <figure>
+            <figcaption>
+                <h2>Cidade de Caruaru</h2>
+                <h3>(Céu do Cangaço Caruaru)</h3>
+            </figcaption>
+            <img class="photos" src="./imagens/cidadeCaruaru.jpg" alt="Caruaru">
+        </figure>
 
-            <figure>
-                <figcaption>
-                    <h2>Luiz Gonzaga</h2>
-                    <h3>(Bairro Luiz Gonzaga Caruaru)</h3>
-                </figcaption>
-                <img src="./imagens/estatua-luiz-gonzaga.jpeg" alt="Placa Monumento">
-                <br /><br /><br /><br /><br /><br />
-            </figure>
-            <figure>
-                <figcaption>
-                    <h2>Patrimônio Cultural Brasileiro</h2>
-                    <h3>(Feira de Caruaru)</h3>
-                </figcaption>
-                <img src="./imagens/feiraCaruaru.jpg" alt="Placa Monumento">
-                <br /><br /><br /><br /><br /><br />
-            </figure>
-        </main>
-    </center>
+        <figure>
+            <figcaption>
+                <h2>Luiz Gonzaga</h2>
+                <h3>(Bairro Luiz Gonzaga Caruaru)</h3>
+            </figcaption>
+            <img class="photos" src="./imagens/estatua-luiz-gonzaga.jpeg" alt="Placa Monumento">
+        </figure>
+
+        <figure>
+            <figcaption>
+                <h2>Patrimônio Cultural Brasileiro</h2>
+                <h3>(Feira de Caruaru)</h3>
+            </figcaption>
+            <img class="photos" src="./imagens/feiraCaruaru.jpg" alt="Placa Monumento">
+        </figure>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div>
+            <table>
+                <tr>
+                    <th>Aluno</th>
+                    <th>Página criada</th>
+                    <th>GitHub</th>
+                </tr>
+                <tr>
+                    <td>Carolina Liberato</td>
+                    <td>Contato.html</td>
+                    <td><a href="https://github.com/carolinaliberatom">/carolinaliberatom</a></td>
+                </tr>
+                <tr>
+                    <td>Davi Severino</td>
+                    <td>Historia.html</td>
+                    <td><a href="https://github.com/Severo-96">/Severo-96</a></td>
+                </tr>
+                <tr>
+                    <td>Felipe Fernandes</td>
+                    <td>Index.html</td>
+                    <td><a href="https://github.com/felipe-s-fernandes">/felipe-s-fernandes</a></td>
+                </tr>
+                <tr>
+                    <td>Pedro Mendes</td>
+                    <td>Midia.html</td>
+                    <td><a href="https://github.com/PedroMCarvalho">/PedroMCarvalho</a></td>
+                </tr>
+            </table>
+        </div>
+    </footer>
+
+    <!-- Mídias Sociais -->
+    <section class="social-media">
+        <div class="socials">
+            <a href="https://www.twitter.com" target="_blank"></a>
+            <a href="https://www.facebook.com" target="_blank"></a>
+            <a href="https://www.gmail.com" target="_blank"></a>
+            <a href="https://www.linkedin.com" target="_blank"></a>
+        </div>
+        <p><a href="https://www.alphaedtech.org.br/" target="_blank">Alpha EdTech</a> © 2022 | Design by: Grupo 1 da
+            monitoria!</p>
+    </section>
+
 </body>
-<hr>
-<footer>
-    <table>
-            <tr>
-                <th>Aluno</th>
-                <th>Página criada</th>
-                <th>GitHub</th>
-            </tr>
-            <tr>
-                <td>Carolina Liberato</td>
-                <td>Contato.html</td>
-                <td><a href="https://github.com/carolinaliberatom">/carolinaliberatom</a></td>
-            </tr>
-            <tr>
-                <td>Davi Severino</td>
-                <td>Historia.html</td>
-                <td><a href="https://github.com/Severo-96">/Severo-96</a></td>
-            </tr>
-            <tr>
-                <td>Felipe Fernandes</td>
-                <td>Index.html</td>
-                <td><a href="https://github.com/felipe-s-fernandes">/felipe-s-fernandes</a></td>
-            </tr>
-            <tr>
-                <td>Pedro Mendes</td>
-                <td>Midia.html</td>
-                <td><a href="https://github.com/PedroMCarvalho">/PedroMCarvalho</a></td>
-            </tr>
-    </table>
-</footer>
 
 </html>
