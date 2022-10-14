@@ -11,105 +11,110 @@
     <title>Caruaru</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <a class="header-a" href="./index.html">Principal</a>
-            <a class="header-a" href="./historia.html">História</a>
-            <div class="container-circle-logo">
-                <a href="https://caruaru.pe.gov.br/" target="_blank">
-                    <img id="logo" src="/imagens/Brasão_de_Caruaru.png" alt="Brasão de Caruaru">
-                </a>
-            </div>
-            <a class="header-a" href="./midia.html">Galeria</a>
-            <a class="header-a" href="./contato.html">Contato</a>
-        </nav>
-    </header>
-    
-    <main>     
-        <section class="flex-container">
-            <article class="container-text"> <!--Essa section ficará ao lado esquerdo-->
-                <h2>Venha visitar!</h2>
-                <h2>Me conte quais belezas deseja conhecer</h2>
-                <h2>ou suas dúvidas sobre a nossa linda cidade! </h2>
-                <p>Utilize o formulário ao lado para mandar sua menssagem!</p>
-            </article>
-    
-            <article class="container-form"> <!--Essa section ficará ao lado direito-->
-                <div class="background-form">
-                    <form class="box-form" action="X" method="post" autocomplete="on">
-                        <legend>Escreva seus dados aqui:</legend>
+    <div class="container-color" >
+        <header>
+            <nav>
+                <a class="header-a" href="./index.html">Principal</a>
+                <a class="header-a" href="./historia.html">História</a>
+                <div class="container-circle-logo">
+                    <a href="https://caruaru.pe.gov.br/" target="_blank">
+                        <img id="logo" src="/imagens/Brasão_de_Caruaru.png" alt="Brasão de Caruaru">
+                    </a>
+                </div>
+                <a class="header-a" href="./midia.html">Galeria</a>
+                <a class="header-a" href="./contato.html">Contato</a>
+            </nav>
+        </header>
+        
+        <main>     
+            <section class="flex-container">
+                <article class="container-text"> <!--Essa section ficará ao lado esquerdo-->
+                    <h2>Venha visitar!</h2>
+                    <h2>Me conte quais belezas deseja conhecer</h2>
+                    <h2>ou suas dúvidas sobre a nossa linda cidade! </h2>
+                    <p>Utilize o formulário para mandar sua mensagem!</p>
+                </article>
+        
+                <article class="container-form"> <!--Essa section ficará ao lado direito-->
+                    <div class="background-form">
+                        <form class="box-form" action="X" method="post" autocomplete="on">
+                            <legend>Escreva seus dados aqui:</legend>
                             <div class="container-name">
-                                <div class="container-input" class="container-input-name">
-                                    <input type="text" name="name" placeholder="Nome:" autocomplete="on" required>
+                                <div class="container-input" id="container-input-name">
+                                    <input type="text" name="name" placeholder="Nome:" autocomplete="on" required class="text">
                                 </div>
-                                <div class="container-input">
-                                    <input type="text" name="surname" placeholder="Sobrenome:" autocomplete="on" required>
+                                <div class="container-input" id="container-input-surname">
+                                    <input type="text" name="surname" placeholder="Sobrenome:" autocomplete="on" required class="text">
                                 </div>
                             </div>
                                 
                             <div class="container-input">
-                                <input type="email" name="email" placeholder="Email:" required>
-                            </div>
-                           
-                            <div class="container-input">
-                                <input type="text" name="subject" placeholder="Assunto:" autocomplete="on" required>
+                                <input type="email" name="email" placeholder="Email:" required class="text">
                             </div>
                             
                             <div class="container-input">
-                                <textarea id="message" name="message" placeholder="DIgite aqui sua mensagem:"></textarea required>
+                                <input type="text" name="subject" placeholder="Assunto:" autocomplete="on" required class="text">
                             </div>
                             
                             <div class="container-input">
-                                <label for="trip">Pretende realizar uma viagem nos próximos meses?</label>
-                                <br>
-                                <label for="yes">Sim</label>
-                                <input type="radio" id="yes" name="opcao" value="Sim">
-
-                                <label for="no">Não</label>
-                                <input type="radio" id="no" name="opcao" value="Nao">
+                                <textarea id="message" name="message" placeholder="DIgite aqui sua mensagem:"></textarea required class="text">
+                            </div>
+                            
+                            <div class="container-input" >
+                                <label for="trip" >Pretende realizar uma viagem nos próximos meses?</label>
+                                <div class="container-check">
+                                    <label for="yes">Sim</label>
+                                    <input type="radio" name="opcao" id="yes" class="check">
+    
+                                    <label for="no" class="check">Não</label>
+                                    <input type="radio" id="no" name="opcao" value="Nao" class="check">
+                                </div>
+                                
                             </div>
                             
                             <div class="container-input">
                                 <input type="submit" id="submit" value="Enviar">
                             </div>
-                            
-                    </form>
-                </div>
-                
-            </article>
-        </section> 
-        
-    </main>
-
-    <footer>
-        <table>
-            <tr>
-                <th>Aluno</th>
-                <th>Página criada</th>
-                <th>GitHub</th>
-            </tr>
-            <tr>
-                <td>Carolina Liberato</td>
-                <td>Contato.html</td>
-                <td><a href="https://github.com/carolinaliberatom">/carolinaliberatom</a></td>
-            </tr>
-            <tr>
-                <td>Davi Severino</td>
-                <td>Historia.html</td>
-                <td><a href="https://github.com/Severo-96">/Severo-96</a></td>
-            </tr>
-            <tr>
-                <td>Felipe Fernandes</td>
-                <td>Index.html</td>
-                <td><a href="https://github.com/felipe-s-fernandes">/felipe-s-fernandes</a></td>
-            </tr>
-            <tr>
-                <td>Pedro Mendes</td>
-                <td>Midia.html</td>
-                <td><a href="https://github.com/PedroMCarvalho">/PedroMCarvalho</a></td>
-            </tr>
-        </table>
-        
-    </footer>
+                                
+                        </form>
+                    </div>
+                    
+                </article>
+            </section> 
+            
+        </main>
+    
+        <footer>
+            <div>
+                <table>
+                    <tr>
+                        <th>Aluno</th>
+                        <th>Página criada</th>
+                        <th>GitHub</th>
+                    </tr>
+                    <tr>
+                        <td>Carolina Liberato</td>
+                        <td>Contato.html</td>
+                        <td><a href="https://github.com/carolinaliberatom">/carolinaliberatom</a></td>
+                    </tr>
+                    <tr>
+                        <td>Davi Severino</td>
+                        <td>Historia.html</td>
+                        <td><a href="https://github.com/Severo-96">/Severo-96</a></td>
+                    </tr>
+                    <tr>
+                        <td>Felipe Fernandes</td>
+                        <td>Index.html</td>
+                        <td><a href="https://github.com/felipe-s-fernandes">/felipe-s-fernandes</a></td>
+                    </tr>
+                    <tr>
+                        <td>Pedro Mendes</td>
+                        <td>Midia.html</td>
+                        <td><a href="https://github.com/PedroMCarvalho">/PedroMCarvalho</a></td>
+                    </tr>
+                </table>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
