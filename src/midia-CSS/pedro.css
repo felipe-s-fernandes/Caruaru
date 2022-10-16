@@ -1,287 +1,50 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-/* ------HEADER------ (copiado de Carol com adaptações) */
-header {
-    height: 230px;
-    display: flex;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
-
-}
-
-header nav {
-    width: 70%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.header-a {
-    font-size: 28px;
-    line-height: 28px;
-    color: rgb(0, 0, 0);
-    text-transform: uppercase;
-    transition: color 0.3s ease;
-    font-family: 'Pathway Gothic One', sans-serif;
     text-decoration: none;
-}
-
-.header-a:hover {
-    color: #263555;
-}
-
-/* ------LOGO------ (copiado do Felipe)*/
-.container-circle-logo {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    background-color: white;
-    position: relative;
-}
-
-#logo {
-    position: absolute;
-    top: 10%;
-    left: 11%;
-    width: 150px;
-}
-
-/* ------FOOTER------ (copiado do Felipe)*/
-
-.test {
-    display: block;
-    max-width: var(--container-width);
-    width: 100%;
-}
-
-footer {
-    height: 35%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #eee;
-    font-size: 24px;
+    box-sizing: border-box;
     font-family: 'Pathway Gothic One', sans-serif;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    
 }
-
-footer div {
-    background-color: #30455B;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-footer table {
-    width: 80%;
-    padding: 20px 0;
-}
-
-footer table tr {
-    width: 300px;
-    gap: 0 200px;
-}
-
-footer table tr th {
-    width: 200px;
-    font-weight: 900px;
-}
-
-footer table tr td {
-    width: 200px;
-    text-align: center;
-}
-
-
-footer table tr a {
-    color: rgb(109, 193, 222);
-}
-
-
-footer table tr a:hover {
-    text-decoration: underline;
-}
-
-@media screen and (max-width: 768px) {
-    nav {
-        height: 85%;
-        flex-direction: column;
-        align-content: space-between;
-    }
-
-    header {
-        height: 50vh;
-    }
-
-    .container-circle-logo {
-        width: 150px;
-        height: 150px;
-    }
-
-    #logo {
-        top: 18%;
-        left: 20%;
-        width: 100px;
-    }
-
-    .flex-container {
-        flex-direction: column;
-        width: 100vw;
-        padding-top: 5%;
-        padding-bottom: 5%;
-        align-items: center;
-        gap: 50px 0
-    }
-
-    .container-text {
-        width: 80%;
-    }
-
-    .container-form {
-        width: 100%;
-    }
-
-    footer {
-        height: 200px;
-    }
-
-    footer table tr {
-        width: 200px;
-        font-size: 18px;
-        font-weight: 400px;
-
-    }
-
-    footer table tr th {
-        text-align: start;
-    }
-
-    footer table tr td {
-        text-align: start;
-    }
-}
-
-/* -------- SOCIAL MEDIA ---------- */
-.social-media {
-    height: 230px;
-}
-
-.social-media p {
-    text-align: center;
-    color: #fff;
-    font-weight: 400;
-}
-
-.social-media a:visited {
-    color: #fff;
-}
-
-.social-media a:hover {
-    color: #4888c7;
-    font-weight: 700;
-}
-
-.socials {
-    text-align: center;
-    margin-bottom: 21px;
-    margin-top: 21px;
-}
-
-.socials a {
-    margin: 0 5px;
-    display: inline-block;
-    width: 46px;
-    height: 46px;
-    background: url(../../imagens/socials.png) 0 0 no-repeat;
-    transition: all 0.3s;
-}
-
-.socials a+a {
-    background-position: -60px 0;
-}
-
-.socials a+a+a {
-    background-position: -122px 0;
-}
-
-.socials a+a+a+a {
-    background-position: right 0;
-}
-
-.socials a:hover {
-    filter: brightness(80%);
-}
-
-/* MEDIA QUERIES */
-@media (max-width: 1150px) {
-    main {
-        display: block;
-    }
-
-    .card {
-        flex-direction: column;
-        align-items: center;
-        padding-bottom: 10px;
-    }
-
-    .hover-container {
-        margin-top: 10px;
-        width: 350px;
-    }
-
-    img {
-        max-width: 300px;
-        max-height: 200px;
-    }
-
-    video {
-        max-width: 300px;
-        max-height: 200px;
-    }
-}
-
-
 
 body {
-    background: url(../../imagens/midia-background.jpeg);
+    height: 100%;
+    background-image: url(https://imagens.ne10.uol.com.br/img/imagens/2020/05/18/98422ee6e7_aniversario-de-caruaru-janaina-pepeu-ne10.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     backdrop-filter: blur(3px);
+    max-width: 1300px;
+    margin: 0 auto;
+    background-size: cover;
+
 }
 
 main {
+    color: black;
+    width: 100%;
     display: flex;
-    color: rgb(255, 255, 255);
-    flex-direction: column;
-    background-color: rgba(15, 41, 148, 0.498);
+    justify-content: center;
     align-items: center;
+    background-color: rgba(255, 255, 255, 0.474);
+    flex-direction: column;
     text-align: center;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    padding: 10vh;
-    border-radius: 50px;
+    border-radius: 10px;
 
 }
 
-/* Estilizando Imagens e Vídeo Utilizado */
+/* Style Imag/Video */
 .photos {
     margin: 40px;
     width: 750px;
     height: 450px;
     transition: 2s;
+
 }
 
 .photos:hover {
     transform: perspective(900px) translateZ(150px);
+
 }
 
 .photos {
@@ -313,13 +76,15 @@ main {
 
 video {
     border-radius: 10%;
+
 }
 
-/* Estilizando Fonts */
+/* Style Fonts */
 h1,
 h2,
 h3 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 30px;
+    color: black;
 
 }
 
@@ -327,15 +92,87 @@ h2 {
     font-size: 35px;
     animation: load-from-right 1.5s;
     border-top-color: #000000;
+
 }
 
 h3 {
     font-size: 25px;
     animation: load-from-right 1.5s;
     border-top-color: #000000;
+
 }
 
 h1 {
+    margin-top: 30px;
     animation: load-from-right 1.5s;
     border-top-color: #000000;
+
+}
+
+h1:hover {
+    color: rgb(40, 39, 39);
+
+}
+
+h2:hover {
+    color: rgb(40, 39, 39);
+
+}
+
+h3:hover {
+    color: rgb(40, 39, 39);
+
+}
+/* Cube */
+
+#cube {
+    margin-left: 1100px;
+    margin-bottom: 60px;
+    width: 50px;
+    height: 50px;
+    animation: rotate 10s infinite alternate;
+    transform-style: preserve-3d;
+
+}
+
+.face {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(90, 29, 29);
+    position: absolute;
+
+}
+
+.face--front {
+    transform: translateZ(60px);
+}
+
+.face--right {
+    transform: rotateY(90deg) translateZ(50px);
+}
+
+.face--back {
+    transform: rotateY(180deg) translateZ(50px);
+}
+
+.face--left {
+    transform: rotateY(-90deg) translateZ(50px);
+}
+
+
+@keyframes rotate {
+    from {
+        transform: rotateX(-20deg) rotateY(-10deg);
+    }
+
+    50% {
+        transform: rotateX(20deg) rotateY(320deg);
+    }
+
+    to {
+        transform: rotateX(-20deg) rotateY(-20deg);
+    }
 }
